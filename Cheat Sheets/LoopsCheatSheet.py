@@ -32,9 +32,9 @@
 
 
 # Break & Continue
-# You can interrupt both while and for loops using the break keyword. 
-# We normally do this to interrupt a cycle due to a separate condition.
+#   You can interrupt both while and for loops using the "break" keyword. 
+#   We normally do this to interrupt a cycle due to a separate condition.
 
-# You can use the continue keyword to skip the current iteration 
+# You can use the "continue" keyword to skip the current iteration 
 # and continue with the next one. This is typically used to jump 
 # ahead when some of the elements of the sequence aren’t relevant.
