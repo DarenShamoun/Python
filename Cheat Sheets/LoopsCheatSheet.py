@@ -1,6 +1,5 @@
 ## While Loops
     # A while loop executes the body of the loop while the condition remains True.
-
     # Syntax:
 """     while condition:
             body            """
@@ -31,10 +30,20 @@
         range(p,q,r): p, p+r, p+2r, p+3r, ... q-1 (if it's a valid increment) """
 
 
+# Recursive functions
+#   A recursive function must include a recursive case and base case. 
+#   The recursive case calls the function again, with a different value. 
+#   The base case returns a value without calling the same function.
+    # A recursive function will usually have this structure:
+"""     def recursive_function(parameters):
+            if base_case_condition(parameters):
+                return base_case_value
+            recursive_function(modified_parameters) """
+
+
 # Break & Continue
 #   You can interrupt both while and for loops using the "break" keyword. 
 #   We normally do this to interrupt a cycle due to a separate condition.
-
-# You can use the "continue" keyword to skip the current iteration 
-# and continue with the next one. This is typically used to jump 
-# ahead when some of the elements of the sequence aren’t relevant.
+#   You can use the "continue" keyword to skip the current iteration 
+#   and continue with the next one. This is typically used to jump 
+#   ahead when some of the elements of the sequence aren’t relevant.
