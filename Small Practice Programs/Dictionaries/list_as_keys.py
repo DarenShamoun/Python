@@ -7,6 +7,6 @@
 # "blue shirt", and so on.
 
 wardrobe = {"shirt":["red","blue","white"], "jeans":["blue","black"]}
-for clothing, color in wardrobe:
+for clothing, color in wardrobe.items():
 	for specificColor in color:
-		print("{} {}".format(clothing,specificColor))
+		print("{} {}".format(specificColor, clothing))
