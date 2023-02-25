@@ -1,12 +1,4 @@
-
-
-
-
-
-
-
-
-# You can iterate over dictionaries using a for loop, just like 
+# You can iterate over dictionaries using a for loop, just like
 # with strings, lists, and tuples. This will iterate over the 
 # sequence of keys in the dictionary. If you want to access 
 # the corresponding values associated with the keys, you could 
